@@ -29,7 +29,7 @@ const Home = () => {
                     <div className="row justify-content-around">
                         <div className="col-md-3 col-sm-6 col-8">
                         <figure className="figure ">
-                            <img src={PF+"profile.png"} className="figure-img img-fluid rounded" alt="user"/>
+                            <img src="/images/profile.png" className="figure-img img-fluid rounded" alt="user"/>
                             <figcaption className="figure-caption text-m">Your Profile and Progress</figcaption>
                         </figure>
                         <div className="d-grid gap-2 col-12 mx-auto">

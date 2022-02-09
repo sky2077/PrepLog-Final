@@ -30,7 +30,7 @@ const Header = () => {
     <div className='logo'>
       <div className="navbar-brand m-0 p-0">
         <Link to="/">
-          <img src="/logo.gif"></img>
+          <img src="/images/logo.gif"></img>
         </Link>
       </div>
       </div>
