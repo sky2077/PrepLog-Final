@@ -1,0 +1,38 @@
+.list-group-item {
+  background: #f4f6f7;
+}
+
+.question {
+  font-size: 1.2rem;
+}
+
+.unDone {
+  background-color: #0f4c62;
+}
+
+.done {
+  background-color: green;
+}
+
+.questionLink {
+  text-decoration: none;
+  color: inherit;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.4);
+  transition-delay: 0s;
+}
+
+.questionLink:hover {
+  color: #ffffffcf;
+  font-size: 1.3rem;
+}
+
+.tickHere {
+  border-right: 1px solid #ededed;
+}
+
+.tickHere:hover {
+  cursor: pointer;
+  font-size: 1.35rem !important;
+}

@@ -1,0 +1,17 @@
+.topic {
+  font-size: 4rem;
+  text-shadow: grey 3px 1px 3px;
+  color: #5a5050;
+}
+
+hr {
+  border-top: 8px dotted #020202;
+  margin: 0 auto;
+  background: inherit;
+  width: 15%;
+}
+
+.questionStatus {
+  cursor: pointer;
+}
+

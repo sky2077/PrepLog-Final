@@ -1,0 +1,25 @@
+{
+  "name": "preplog",
+  "version": "1.0.0",
+  "description": "dsa preperation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server.js",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "yogita and aman",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "validator": "^13.7.0"
+  }
+}

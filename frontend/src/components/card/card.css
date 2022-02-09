@@ -1,0 +1,45 @@
+.topicCard {
+  border-radius: 1rem;
+}
+
+.topicCard:hover {
+  box-shadow: grey 0px 7px 10px -2px;
+}
+
+.topicCard:active,
+.topicCard:focus,
+.topicCard:hover {
+  transform: scale(1.05);
+}
+
+.topicCard {
+  vertical-align: middle;
+  transform: perspective(0.5px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.card-header:first-child {
+  border-radius: 0;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.topicBody {
+  border-radius: 0 0 1rem 1rem;
+  width: 100%;
+  background-color: #435666;
+}
+
+.topicTitle {
+  width: 100%;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: inherit !important;
+}

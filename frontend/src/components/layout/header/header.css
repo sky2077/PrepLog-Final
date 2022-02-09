@@ -1,0 +1,17 @@
+nav {
+  margin-bottom: 4rem;
+}
+
+.navbar {
+  padding: 0;
+  box-shadow: grey 5px 0px 5px 1px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo {
+  width: 10%;
+}
